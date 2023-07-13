@@ -6,8 +6,12 @@
 
   - name: Print branch name
     debug:
-     msg: "This is 'main' upstream branch. All latest and greates is here"
-    
+     msg: "This is 'main' upstream branch. All latest and greates is here."
+
+  - name: Next generation of Application
+    debug:
+     msg: "New day, new feature, new commit!"
+
   - name: Print ansible version
     debug:
      msg: "Ansible version is  {{ ansible_version.full }}"

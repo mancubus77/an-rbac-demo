@@ -6,7 +6,7 @@
 
   - name: Print branch name
     debug:
-     msg: "This is 'main' upstream branch. All latest and greates is here"
+     msg: "This is 'an' protected branch. We can not have latest and greates here"
     
   - name: Print ansible version
     debug:

@@ -1,0 +1,6 @@
+recursive-exclude .git *
+exclude LICENSE
+exclude README.md
+exclude Makefile
+include MANIFEST.in
+include *.yaml

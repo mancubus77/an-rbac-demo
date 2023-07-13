@@ -1,0 +1,2 @@
+a8ba9b0bbb8691b71f337807cf1ce718c451ce8cbd41b21e544cdadcbe4b341e  MANIFEST.in
+f4bc9cb28812db00ccc7b82fafb25c0b0cb66faf182ad0851188de5594264ed6  main.yaml

@@ -6,7 +6,7 @@
 
   - name: Print branch name
     debug:
-     msg: "This is 'an' protected branch. We can not have latest and greates here. BUT WE D0 "
+     msg: "This is 'an' protected branch. We can not have latest and greates here."
     
   - name: Print ansible version
     debug:

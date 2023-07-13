@@ -1,0 +1,16 @@
+---
+- name: Hello World!
+  hosts: all
+  gather_facts: no
+  tasks:
+
+  - name: Print branch name
+    debug:
+     msg: "This is 'main' upstream branch. All latest and greates is here"
+    
+  - name: Print ansible version
+    debug:
+     msg: "Ansible version is  {{ ansible_version.full }}"
+
+  - name: Run shell command
+    shell: echo "Hi! I'm running shell command on {{ ansible_host }}"
